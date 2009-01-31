@@ -1,5 +1,3 @@
-#summary Build Instructions
-
 = Build Instructions =
 
 1. Download and install iPhone SDK >= 2.1
