@@ -2,10 +2,10 @@
 
 <ol>
 <li> Download and install iPhone SDK >= 2.1
-<li> Download ffmpeg from svn (replace -r16669 with the revision you want)
+<li> Download ffmpeg from svn (replace -r16838 with the revision you want)
 
 {{{
-svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r16669 ffmpeg
+svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -rr16838 ffmpeg
 }}}
 
 <li> Use a configure script from the Download section
