@@ -1,0 +1,17 @@
+#summary Build Instructions
+
+= Build Instructions =
+
+1. Download and install iPhone SDK >= 2.1
+2. Download ffmpeg from svn (replace -r16669 with the revision you want)
+
+{{{
+svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r16669 ffmpeg
+}}}
+
+3. Use a configure script from the Download section
+
+{{{
+patch -p4 -i ffmpeg4iphone-svn-2009-30-01-v0.0.4.patch
+./configure-iphone-v0.0.4
+}}}
