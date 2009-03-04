@@ -14,3 +14,9 @@ svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r16838 ffmpeg
 patch -p4 -i ffmpeg4iphone-svn-2009-30-01-v0.0.4.patch
 ./configure-iphone-v0.0.4
 }}}
+
+= Configuring and compiling other plugins =
+Use the configure files at:
+http://code.google.com/p/ffmpeg4iphone/issues/detail?id=1&can=1
+
+You can use those ones configure files as a good template for configuring other plugins. The only thing you would usually need to change is the actual ./configure line in the file.
