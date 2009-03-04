@@ -1,5 +1,6 @@
 = Build Instructions =
 
+<li>
 # Download and install iPhone SDK >= 2.1
 # Download ffmpeg from svn (replace -r16838 with the revision you want)
 
