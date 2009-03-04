@@ -1,8 +1,8 @@
 = Build Instructions =
 
 <ol>
-<li> Download and install iPhone SDK >= 2.1
-<li> Download ffmpeg from svn (replace -r16838 with the revision you want)
+#1 Download and install iPhone SDK >= 2.1
+# Download ffmpeg from svn (replace -r16838 with the revision you want)
 
 {{{
 svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r16838 ffmpeg
