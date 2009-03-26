@@ -1,7 +1,7 @@
 = Build Instructions =
 
 <ol>
-<li> Install ldid from Cydia</li>
+<li> On the iPhone/iPod Touch, install ldid from Cydia </li>
 <li> Download and install iPhone SDK >= 2.1 for Mac OS X</li>
 <li> In Mac OS X, download ffmpeg from svn (replace -r16838 with the revision you want)
 
