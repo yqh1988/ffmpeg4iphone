@@ -2,8 +2,8 @@
 
 <ol>
 <li> Install ldid from Cydia</li>
-<li> Download and install iPhone SDK >= 2.1</li>
-<li> Download ffmpeg from svn (replace -r16838 with the revision you want)
+<li> Download and install iPhone SDK >= 2.1 for Mac OS X</li>
+<li> In Mac OS X, download ffmpeg from svn (replace -r16838 with the revision you want)
 
 {{{
 svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r16838 ffmpeg
@@ -16,7 +16,7 @@ patch -p4 -i ffmpeg4iphone-svn-2009-30-01-v0.0.4.patch
 ./configure-iphone-v0.0.4
 }}}
 
-<li>ldid -S ffmpeg</li>
+<li>On the iPhone/iPod Touch, run: ldid -S ffmpeg</li>
 </ol>
 
 = Configuring and compiling other plugins =
