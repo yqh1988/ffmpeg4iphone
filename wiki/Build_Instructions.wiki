@@ -16,8 +16,6 @@ patch -p4 -i ffmpeg4iphone-svn-2009-30-01-v0.0.4.patch
 ./configure-iphone-v0.0.4
 }}}
 
-<li>Copy ffmpeg to the iPhone/iPod Touch
-
 <li>On the iPhone/iPod Touch, run: ldid -S ffmpeg</li>
 </ol>
 
