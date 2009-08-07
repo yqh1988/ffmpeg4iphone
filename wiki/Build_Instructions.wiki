@@ -1,0 +1,34 @@
+= Build Instructions =
+
+<ol>
+<li> On the iPhone/iPod Touch, install ldid from Cydia </li>
+<li> Download and install iPhone SDK >= 2.1 for Mac OS X</li>
+<li> In Mac OS X, download ffmpeg from svn (replace -r16838 with the revision you want)
+
+{{{
+svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r16838 ffmpeg<br>
+}}}
+
+<b>NOTE:</b>Changes in libswscale are now causing compiler problems for ffmpeg4iphone <= 0.0.4.x. Check out by date will get the right copy of libswscale for you:<br>
+{{{
+svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r {2009-02-01} ffmpeg
+}}}
+
+</li>
+<li> Use a configure script from the Download section</li>
+
+{{{
+patch -p4 -i ffmpeg4iphone-svn-2009-30-01-v0.0.4.patch
+./configure-iphone-v0.0.4
+}}}
+
+<li>Copy ffmpeg to the iPhone/iPod Touch</li>
+
+<li>On the iPhone/iPod Touch, run: ldid -S ffmpeg</li>
+</ol>
+
+= Configuring and compiling other plugins =
+Use the configure files at:
+http://code.google.com/p/ffmpeg4iphone/issues/detail?id=1&can=1
+
+You can use those ones configure files as a good template for configuring other plugins. The only thing you would usually need to change is the actual ./configure line in the file.
