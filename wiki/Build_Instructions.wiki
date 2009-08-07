@@ -6,7 +6,12 @@
 <li> In Mac OS X, download ffmpeg from svn (replace -r16838 with the revision you want)
 
 {{{
-svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r16838 ffmpeg
+svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r16838 ffmpeg<br>
+}}}
+
+<b>NOTE:</b>Changes in libswscale are now causing compiler problems for ffmpeg4iphone <= 0.0.4.x. Check out by date will get the right copy of libswscale for you:<br>
+{{{
+svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r {2009-02-01} ffmpeg
 }}}
 </li>
 <li> Use a configure script from the Download section</li>
