@@ -3,22 +3,19 @@
 <ol>
 <li> On the iPhone/iPod Touch, install ldid from Cydia </li>
 <li> Download and install iPhone SDK >= 2.1 for Mac OS X</li>
-<li> In Mac OS X, download ffmpeg from svn (replace -r16838 with the revision you want)
+<li> In Mac OS X, download ffmpeg from svn (replace -r19606 with the revision you want)
 
 {{{
-svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r16838 ffmpeg<br>
+svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r19606 ffmpeg<br>
 }}}
 
-<b>NOTE:</b>  Changes in libswscale are now causing compiler problems for ffmpeg4iphone <= 0.0.4.x. Check out by date will get the right copy of libswscale for you:<br>
-{{{
-svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r {2009-02-01} ffmpeg
-}}}
+<b>NOTE:</b>  Changes in libswscale are now causing compiler problems for ffmpeg4iphone <= 0.0.4.x. Please use ffmpeg4iphone-0.0.5 or later.<br>
 </li>
 <li> Use a configure script from the Download section</li>
 
 {{{
-patch -p4 -i ffmpeg4iphone-svn-2009-30-01-v0.0.4.patch
-./configure-iphone-v0.0.4
+patch -p4 -i ffmpeg4iphone-svn-2009-30-01-v0.0.5.patch
+./configure-iphone-v0.0.5
 }}}
 </li>
 <li>Copy ffmpeg to the iPhone/iPod Touch</li>
