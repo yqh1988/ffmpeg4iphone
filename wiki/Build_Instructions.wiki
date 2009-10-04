@@ -1,3 +1,14 @@
+<b>
+Good news!
+
+There seems to be a better way to compile FFmpeg for the iPhone, and it doesn't include any patching!
+
+</b>
+[http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/2009-October/076618.html gas-preprocesor]
+
+<br><br>
+<hr>
+
 = Build Instructions =
 
 <ol>
