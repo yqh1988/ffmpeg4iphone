@@ -17,16 +17,16 @@ There seems to be a better way to compile FFmpeg for the iPhone, and it doesn't 
 <li> In Mac OS X, download ffmpeg from svn (replace -r19606 with the revision you want)
 
 {{{
-svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r19606 ffmpeg
+svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r29748 ffmpeg
 }}}
 
-<b>NOTE:</b>  Changes in libswscale are now causing compiler problems for ffmpeg4iphone <= 0.0.4.x. Please use ffmpeg4iphone-0.0.5 or later.<br>
+<b>NOTE:</b>  Changes in libswscale are now causing compiler problems for ffmpeg4iphone <= 0.0.4.x. Please use ffmpeg4iphone-0.0.6 or later.<br>
 </li>
 <li> Use a configure script from the Download section</li>
 
 {{{
 cd ffmpeg
-patch -p4 -i ffmpeg4iphone-svn-2009-07-08-v0.0.5.patch
+patch -p4 -i ffmpeg4iphone-svn-2009-10-03-v0.0.6.patch
 ./configure-iphone-v0.0.5
 }}}
 </li>
