@@ -14,7 +14,7 @@ There seems to be a better way to compile FFmpeg for the iPhone, and it doesn't 
 <ol>
 <li> On the iPhone/iPod Touch, install ldid from Cydia </li>
 <li> Download and install iPhone SDK >= 2.1 for Mac OS X</li>
-<li> In Mac OS X, download ffmpeg from svn (replace -r29748 with the revision you want)
+<li> In Mac OS X, download ffmpeg from svn (replace -r20161 with the revision you want)
 
 {{{
 svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk -r20161 ffmpeg
