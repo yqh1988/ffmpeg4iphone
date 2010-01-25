@@ -2,7 +2,7 @@
 #the modifications to ffplay are in 
 
 More information here
-Thanks to Yanos, theo for all their help.
+Thanks to Yonas, theo for all their help.
 
 Here are the results with a xvid movie.
 
@@ -45,5 +45,3 @@ ffmpeg4iphone google site run by yonas, who's done a great job with ffmpeg.
 And 
 
 me at mooncatventures.com
-
-
