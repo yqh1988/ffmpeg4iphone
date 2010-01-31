@@ -31,7 +31,7 @@ http://web.me.com/cannonwc/Site/Photos_5.html#3
 
 FFPLAY is a work in progress some videos play really good
 
-Xvid' and mpeg's seem to play very wel, leaving open the possiblity to use it with such servers as playon's.
+Xvid' and mpeg's seem to play very wel, leaving open the possiblity to use it with such servers such as playon's.
 
 Avi's play but the video/audio is badly out of synch.
 
@@ -62,5 +62,3 @@ ffmpeg4iphone google site run by yonas, who's done a great job with ffmpeg.
 And 
 
 me at mooncatventures.com
-
-
