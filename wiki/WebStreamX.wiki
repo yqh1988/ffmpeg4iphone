@@ -1,0 +1,3 @@
+WebStreamX an sdl video player derived from ffplay.
+
+http://web.me.com/cannonwc/Site_4/Blog/Entries/2010/2/3_A_Walk_Thru_of_a_Typical_Use_Case.html
